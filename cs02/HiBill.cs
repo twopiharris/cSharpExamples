@@ -32,8 +32,6 @@ namespace AreYouBill {
         Console.WriteLine("Nice to see you, {0}!", fullName);
       } // end if
 
-      //hold for user response
-      Console.WriteLine();
       Console.WriteLine();
       Console.WriteLine("Please press \"enter\" to continue");
       Console.ReadLine();

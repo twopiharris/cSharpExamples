@@ -19,6 +19,7 @@ namespace Roller
       raw = generator.NextDouble();
       Console.WriteLine("raw: {0}", raw);
 
+      
       big = raw * 6;
       Console.WriteLine("big: {0}", big);
 
@@ -31,7 +32,6 @@ namespace Roller
       //do it all in one step
       die = (int)(generator.NextDouble() * 6) + 1;
       Console.WriteLine("another die: {0}", die);
-
 
       // or, just use next to get an int.
       die = generator.Next(1, 7);

@@ -20,10 +20,13 @@ namespace MathGame
 
 		  Console.WriteLine("Welcome to the math Game!  I'll give you some simple problems to solve.");
 
-      //addition
-      a = (int)(roller.NextDouble() * 10);
-      b = (int)(roller.NextDouble() * 10);
-      c = a + b;
+            //addition
+            //a = (int)(roller.NextDouble() * 10);
+            //b = (int)(roller.NextDouble() * 10);
+            a = roller.Next(0, 11);
+            b = roller.Next(11);
+
+            c = a + b;
       
       Console.Write("What is {0} + {1}? ", a, b);
       guess = Convert.ToInt32(Console.ReadLine());
