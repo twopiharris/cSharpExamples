@@ -24,7 +24,7 @@ namespace fancyBean
 			//count backwards
 			Console.WriteLine("Counting backwards:");
 			for(i = 10; i > 0; i--){
-        Console.Write(i + "\t");
+        Console.Write("{0} ", i);
       } // end for loop
       Console.WriteLine();
       Console.WriteLine();

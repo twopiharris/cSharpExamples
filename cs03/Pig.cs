@@ -21,6 +21,10 @@ namespace PigLatin
       while (sentence.ToLower() != "quit"){
         Console.WriteLine("Please enter a sentence (or type \"quit\" to exit)");
         sentence = Console.ReadLine();
+
+        if (sentence.Length == 0){
+          sentence = "you cannot have a blank sentence";
+        } // end if
         
 			  foreach (string word in sentence.Split())
 			  {
@@ -39,11 +43,13 @@ namespace PigLatin
           Console.Write("{0} ", pigWord);
           
 			    //debugging code
-			    //Console.Write("{0}\t", word);
-          //Console.Write("{0}\t", firstLetter);
-          //Console.Write("{0}\t", restOfWord);
-          //Console.Write("{0}\t", letterPos);
-          //Console.WriteLine("{0}", pigWord);
+          /*
+			    Console.Write("{0}\t", word);
+          Console.Write("{0}\t", firstLetter);
+          Console.Write("{0}\t", restOfWord);
+          Console.Write("{0}\t", letterPos);
+          Console.WriteLine("{0}", pigWord);
+          */
 
 			  } // end foreach
         Console.WriteLine();

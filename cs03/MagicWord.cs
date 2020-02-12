@@ -29,7 +29,29 @@ namespace magicWord
 			Console.WriteLine("You find the magic treasure.");
       Console.WriteLine();
       Console.WriteLine();
-      
+ 
+      Console.WriteLine("Dang. Another troll");
+      theAnswer = "Keiser";
+      do {
+        Console.WriteLine("What's you're university name? ");
+        response = Console.ReadLine();
+      } while (response != theAnswer);
+
+      Console.WriteLine("The place is literally crawling with trolls...");
+
+      bool keepGoing = true;
+      while (keepGoing){
+        Console.WriteLine("What country is Keiser in? ");
+        response = Console.ReadLine();
+        if (response == "Nicaragua"){
+          keepGoing = false;
+        } // end if
+        if (response == "USA"){
+          keepGoing = false;
+        } // end if
+      } // end while
+
+     
       Console.WriteLine("Please press enter to continue");
       Console.ReadLine();
 
