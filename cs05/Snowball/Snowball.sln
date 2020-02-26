@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snowball", "Snowball.csproj", "{AA14EF3C-6119-458B-B318-84FF8EB68291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA14EF3C-6119-458B-B318-84FF8EB68291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA14EF3C-6119-458B-B318-84FF8EB68291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA14EF3C-6119-458B-B318-84FF8EB68291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA14EF3C-6119-458B-B318-84FF8EB68291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E77B512-E5D1-46A0-ADE1-914FAD402BF9}
+	EndGlobalSection
+EndGlobal
