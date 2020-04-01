@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test xmlns="http://tempuri.org/testComplex.xsd">
+    <problem>
+        <question>What is your name?</question>
+        <answers>
+            <a>Arthur, King of the Britons</a>
+            <b>Roger the Shrubber</b>
+            <c>Galahad the Pure</c>
+            <d>Brave Sir Robin</d>
+        </answers>
+        <correct>A</correct>
+    </problem>
+    <problem>
+        <question>What is your quest?</question>
+        <correct>B</correct>
+        <answers>
+            <a>I'm looking for castle St. Aaaargh...</a>
+            <b>I seek the holy grail</b>
+            <c>I'm building a giant wooden badger.</c>
+            <d>I'm looking for a shrubbery.</d>
+        </answers>
+    </problem>
+</test>
